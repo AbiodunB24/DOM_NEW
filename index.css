@@ -27,7 +27,7 @@ body {
   border-radius: 10px;
   padding: 5px 5px 5px 5px;
   background-color: rgb(28, 27, 27);
-  color: white;
+  color: rgb(151, 137, 137);
 }
 ::placeholder {
   color: rgb(151, 137, 137);
