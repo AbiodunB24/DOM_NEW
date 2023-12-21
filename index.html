@@ -37,7 +37,13 @@
           />
         </div>
 
-        <select required  aria-required="true" name="" class="country" id="country">
+        <select
+          required
+          aria-required="true"
+          name=""
+          class="country"
+          id="country"
+        >
           <option value="" disabled selected hidden>Country</option>
           <option value="USA">USA</option>
           <option value="Canada">Canada</option>
@@ -57,7 +63,7 @@
         <div class="notify">
           <h3>Pull Requests</h3>
           <!-- Rounded switch -->
-          <label  class="switch">
+          <label class="switch">
             <input id="pull" type="checkbox" />
             <span class="slider round"></span>
           </label>
@@ -65,8 +71,8 @@
         <div class="notify">
           <h3>Deployment Triggers</h3>
           <!-- Rounded switch -->
-          <label  class="switch">
-            <input id="deployment"type="checkbox" />
+          <label class="switch">
+            <input id="deployment" type="checkbox" />
             <span class="slider round"></span>
           </label>
         </div>
@@ -75,11 +81,11 @@
         <h1>Security</h1>
         <div class="checkbox">
           <h4>Run Security Check Upon Login</h4>
-          <input id="security" type="checkbox" />
+          <input checked id="security" type="checkbox" />
         </div>
         <div class="range">
           <h4>less</h4>
-          <input id="range" type="range" class="sliderr" />
+          <input id="range" value="0" type="range" class="sliderr" />
           <h4>more</h4>
         </div>
       </div>
