@@ -32,6 +32,8 @@ form.addEventListener("submit", function (e) {
    week.checked = false 
    pull.checked = false
    deployment.checked = false
+   security.checked = true
+   range.value = 0
   }
 
  
